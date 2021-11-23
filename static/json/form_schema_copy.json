@@ -1,0 +1,75 @@
+{ "data": {
+    "form": {
+        "attributes": { 
+            "name": "",
+            "id": "",
+            "method": "POST",
+            "action": "#",
+            "class_form": "form",
+            "style": {
+                "backgroundColor": "black"
+            }
+        },
+        "fields": {
+            "components": [
+                {
+                    "node_name": "input",
+                    "name": "cliente",
+                    "id": "cliente",
+                    "values": ["Pulsar"],
+                    "placeholder": "Inserisci un cliente",
+                    "type": "",
+                    "class_html": "input",
+                    "style": {
+                        "backgroundColor": "black"
+                    }
+                },
+                {
+                    "node_name": "input",
+                    "name": "città",
+                    "id": "citta",
+                    "values": ["bologna"],
+                    "placeholder": "Inserisci una città",
+                    "type": "",
+                    "class_html": "input",
+                    "style": {
+                        "backgroundColor": "black"
+                    }
+                },
+                {
+                    "node_name": "select",
+                    "name": "via",
+                    "id": "via",
+                    "values": ["Marino Serenari"],
+                    "type": "",
+                    "class_html": "select",
+                    "style": {
+                        "backgroundColor": "black"
+                    }
+                },
+                {
+                    "node_name": "select",
+                    "name": "vap",
+                    "id": "cap",
+                    "values": [88900, 40131],
+                    "type": "",
+                    "class_html": "select",
+                    "style": {
+                        "backgroundColor": "black"
+                    }
+                }
+            ],
+            "button": {
+                "name": "",
+                "id":"",
+                "class": "button",
+                "style": {
+                    "backgroundColor": "black"
+                },
+                "type": "submit",
+                "text": "Submit"
+            }
+        }
+    }
+  }
+}

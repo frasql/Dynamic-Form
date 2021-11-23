@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-6-desktop" id="build-form">
+                    <h3 class="subtitle">Build Elements</h3>
+                    <hr />
+                    <div class="field">
+                        <label for="" class="label">Name</label>
+                        <div class="control">
+                           <input id="field-name" type="text" class="input">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label for="" class="label">Type (input, select)</label>
+                        <div class="control">
+                            <input id="field-node-name" type="text" class="input">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label" for="">Options</label>
+                        <div class="control">
+                            <button id="add-new-field" class="button">Add</button>
+                            <button id="add-meta" class="button">Meta</button>
+                        </div>
+                    </div>
+                    <div class="content is-hidden" id="field-meta">
+
+                    </div>
+                </div>
+                <div class="column is-6-desktop">
+                    <div class="card">
+                        <header class="card-header">
+                            <p class="card-header-title">Form Preview</p>
+                        </header>
+                        <div class="card-content" id="show-form">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script type="module" src="{{ url_for('static', filename='js/show_form.js') }}" defer ></script>
+    <script type="module" src="{{ url_for('static', filename='js/build_form.js') }}" defer ></script>
+ 
+</body>
+</html>
